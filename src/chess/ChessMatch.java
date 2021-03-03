@@ -3,7 +3,6 @@ package chess;
 import boardgame.Board;
 import boardgame.Piece;
 import boardgame.Position;
-import chess.pieces.ChessException;
 import chess.pieces.King;
 import chess.pieces.Rook;
 
