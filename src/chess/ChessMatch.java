@@ -5,6 +5,7 @@ import boardgame.Piece;
 import boardgame.Position;
 import chess.pieces.King;
 import chess.pieces.Rook;
+import chess,pieces.Bishop;
 
 public class ChessMatch {
 	private int turn;
@@ -27,7 +28,7 @@ public class ChessMatch {
 		return currentPlayer;
 	}
 	
-	public ChessPiece[][] getpieces(){
+	public ChessPiece[][] getPieces(){
 		ChessPiece[][]  mat = new ChessPiece[board.getRows()][board.getColumns()];
 		for(int i=0; i < board.getRows(); i++) {
 			for(int j=0; j < board.getColumns(); j++) {
